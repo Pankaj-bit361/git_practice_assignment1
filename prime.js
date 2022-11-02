@@ -1,4 +1,5 @@
 function ValidatePrime(num){
+
 let count=0;
 for(var i=0;i<=num;i++){
 if(num%i==0){
@@ -16,3 +17,5 @@ console.log("This is a Prime")
 }else{
 coonsole.log("No a Prime Number");
 }
+
+
